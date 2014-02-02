@@ -3,6 +3,8 @@ gmod-wiki-npp
 
 Scrapes http://wiki.garrysmod.com for useful autocomplete hints and tosses them into Notepad++ autocomplete format. This does NOT generate syntax highlighting.
 
+![Example](http://i.imgur.com/uxRAhjN.png "Example")
+
 ## Usage Instructions
 Download GMod Syntax Highlight plugin (http://code.google.com/p/npp-gmod-lua/) from Notepad++ plugin manager and update the xml file with this:
 http://facepunch.com/showthread.php?t=1274235&p=43718059&viewfull=1#post43718059
