@@ -9,3 +9,11 @@ Scrapes the http://wiki.garrysmod.com for useful autocomplete hints and tosses t
 - mwparserfromhell
 - mwclient
 
+## Bugs
+- autocomplete list too big for notepad++ (takes multiple seconds to process)
+- Does not parse all functions
+- Does not cache wiki content
+
+## TODO
+- Enums Category
+- Include Examples
