@@ -2,26 +2,6 @@
 <NotepadPlus>
   <AutoComplete language="GMod Lua">
     <Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" additionalWordChar=":."/>
-    <KeyWord func="yes">
-      <Overload retVal="" descr=""/>
-    </KeyWord>
-    <KeyWord func="yes">
-      <Overload retVal="" descr="">
-        <Param name="string filename"/>
-        <Param name="string path"/>
-      </Overload>
-    </KeyWord>
-    <KeyWord func="yes">
-      <Overload retVal="table" descr=""/>
-    </KeyWord>
-    <KeyWord func="yes">
-      <Overload retVal="" descr="&#xA;string unknown: A string that has an unknown effect on the NPC. May have something to do with Single Player">
-        <Param name="string unknown"/>
-      </Overload>
-    </KeyWord>
-    <KeyWord func="yes">
-      <Overload retVal="" descr=""/>
-    </KeyWord>
     <KeyWord func="yes" name="achievements.BalloonPopped">
       <Overload retVal="" descr="http://wiki.garrysmod.com/page/achievements/BalloonPopped&#xA;Client&#xA;Tells the client that balloon has popped."/>
     </KeyWord>
@@ -2285,7 +2265,7 @@
       </Overload>
     </KeyWord>
     <KeyWord func="yes" name="engine.LightStyle">
-      <Overload retVal="" descr="http://wiki.garrysmod.com/page/engine/LightStyle&#xA;Server&#xA;This is a direct binding to the function “engine-&gt;LightStyle”. This function allows you to change&#xA;the default light style of the map - so you can make lighting lighter or darker. You’ll need to call&#xA;{{LibraryFunction|render|RedownloadAllLightmaps}} clientside to refresh the lightmaps to this new&#xA;color.&#xA;&#xA;number lightstyle: The lightstyle to edit. If you want to edit map lighting, you want to set this to 0.&#xA;&#xA;string pattern: The pattern to change the lightstyle to. &quot;a&quot; is the darkest, &quot;z&quot; is the brightest. You can&#xA;  use stuff like &quot;abcxyz&quot; to make flashing patterns. The normal brightness for a map is &quot;m&quot;.">
+      <Overload retVal="" descr="http://wiki.garrysmod.com/page/engine/LightStyle&#xA;Server&#xA;This is a direct binding to the function ï¿½engine-&gt;LightStyleï¿½. This function allows you to change&#xA;the default light style of the map - so you can make lighting lighter or darker. Youï¿½ll need to call&#xA;{{LibraryFunction|render|RedownloadAllLightmaps}} clientside to refresh the lightmaps to this new&#xA;color.&#xA;&#xA;number lightstyle: The lightstyle to edit. If you want to edit map lighting, you want to set this to 0.&#xA;&#xA;string pattern: The pattern to change the lightstyle to. &quot;a&quot; is the darkest, &quot;z&quot; is the brightest. You can&#xA;  use stuff like &quot;abcxyz&quot; to make flashing patterns. The normal brightness for a map is &quot;m&quot;.">
         <Param name="number lightstyle"/>
         <Param name="string pattern"/>
       </Overload>
@@ -5519,7 +5499,7 @@
     </KeyWord>
     <KeyWord func="yes" name="Global.SortedPairsByMemberValue">
       <Overload retVal="function" descr="http://wiki.garrysmod.com/page/Global/SortedPairsByMemberValue&#xA;Shared&#xA;Returns an iterator function that can be used to loop through a table in order of member values&#xA;&#xA;table table: Table to create iterator for&#xA;&#xA;string memberName: Name of member to order iteration by&#xA;&#xA;boolean descending: Whether the iterator should iterate in descending order or not">
-        <Param name="table table"/>
+        <Param namhttp://wiki.garrysmod.com/page/Global/ParticleEmittere="table table"/>
         <Param name="string memberName"/>
         <Param name="boolean descending"/>
       </Overload>
@@ -9624,7 +9604,8 @@
       <Overload retVal="" descr="http://wiki.garrysmod.com/page/Panel/ToggleSelection&#xA;Client&#xA;"/>
     </KeyWord>
     <KeyWord func="yes" name="Panel:ToggleVisible">
-      <Overload retVal="" descr="http://wiki.garrysmod.com/page/Panel/ToggleVisible&#xA;Client&#xA;"/>
+      <Overload retVal="" descr="http://wiki.garrysmod.com/page/Panel/Toggl
+    eVisible&#xA;Client&#xA;"/>
     </KeyWord>
     <KeyWord func="yes" name="Panel:Undo">
       <Overload retVal="" descr="http://wiki.garrysmod.com/page/Panel/Undo&#xA;Client&#xA;"/>
@@ -9788,13 +9769,13 @@
       <Overload retVal="number" descr="http://wiki.garrysmod.com/page/PhysObj/GetStress&#xA;Server&#xA;Returns the stress of the entity."/>
     </KeyWord>
     <KeyWord func="yes" name="PhysObj:GetSurfaceArea">
-      <Overload retVal="number" descr="http://wiki.garrysmod.com/page/PhysObj/GetSurfaceArea&#xA;Shared&#xA;Returns the surface area of the physics object in source-units²."/>
+      <Overload retVal="number" descr="http://wiki.garrysmod.com/page/PhysObj/GetSurfaceArea&#xA;Shared&#xA;Returns the surface area of the physics object in source-unitsï¿½."/>
     </KeyWord>
     <KeyWord func="yes" name="PhysObj:GetVelocity">
       <Overload retVal="Vector" descr="http://wiki.garrysmod.com/page/PhysObj/GetVelocity&#xA;Shared&#xA;Returns the absolute directional velocity of the physobject."/>
     </KeyWord>
     <KeyWord func="yes" name="PhysObj:GetVolume">
-      <Overload retVal="number" descr="http://wiki.garrysmod.com/page/PhysObj/GetVolume&#xA;Shared&#xA;Returns the volume in source units³."/>
+      <Overload retVal="number" descr="http://wiki.garrysmod.com/page/PhysObj/GetVolume&#xA;Shared&#xA;Returns the volume in source unitsï¿½."/>
     </KeyWord>
     <KeyWord func="yes" name="PhysObj:HasGameFlag">
       <Overload retVal="boolean" descr="http://wiki.garrysmod.com/page/PhysObj/HasGameFlag&#xA;Shared&#xA;Returns whenever the specified flag(s) is/are set.&#xA;&#xA;number flags: Bitflag, see {{Enum|FVPHYSICS}}.">
@@ -13612,7 +13593,7 @@
       <Overload retVal="number" descr="http://wiki.garrysmod.com/page/Weapon/Clip2&#xA;Shared&#xA;Returns how much secondary ammo is in clip."/>
     </KeyWord>
     <KeyWord func="yes" name="WEAPON:ContextScreenClick">
-      <Overload retVal="" descr="http://wiki.garrysmod.com/page/WEAPON/ContextScreenClick&#xA;Shared&#xA;Called when the Context Menu ( Default key C ) is open and the player has clicked the screen.&#xA;&#xA;Vector aimvec: Players aim direction. Notice that this is not the aim position.&#xA;&#xA;number mouseCode: The mouse button that player clicked. See [[Enums/MOUSE|MOUSE_ enums]].&#xA;&#xA;boolean pressed: Was the button pressed or released&#xA;&#xA;Player ply: Player who clicked">
+      <Overload retVal="" descr="http://wiki.garrysmod.com/page/WEAPON/ContextScreenClick&#xA;Shared&#xA;Called when the Context Menu ( Default key C ) is open and the player has clicked the screen.&#xA;&#xA;Vector aimvec: Players aim direction. Notice that this is not the aim position.&#xA;&#xA;number mouseCode: The mouse button that player clicked. See [[Enums/MOUSE|MOUSE_ enums]].&#xA;&#xA#xA;Client;boolean pressed: Was the button pressed or released&#xA;&#xA;Player ply: Player who clicked">
         <Param name="Vector aimvec"/>
         <Param name="number mouseCode"/>
         <Param name="boolean pressed"/>
